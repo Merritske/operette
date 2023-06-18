@@ -1,0 +1,15 @@
+body{
+    margin: 0 auto;
+}
+div {
+    width: 500px;
+    background-color: #4c2504;
+    margin: 0 auto;
+    padding: 25px;
+    color: beige;
+}
+#contact{
+    border: 3px whitesmoke solid;
+    padding: 25px;
+    font-size: 30px;
+}
