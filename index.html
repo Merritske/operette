@@ -11,50 +11,54 @@
 <body>
     <div id="wrapper">
         <div id="sidebar" style="height: 3471px;">
-            <div id="logo"><a href="index.php"><img src="./images/Logo-rondVMT.png" alt="" width="200"
-                        height="188"></a></div>
+            <div id="logo"><a href="./index.html"><img src="./images/Logo-rondVMT.png" alt="" width="200"
+                        height="188"></a>
+            </div>
             <div id="menu" class="menu-v">
                 <ul>
-                    <li><a href="index.php" class="active">Home</a>
+                    <li><a href="./index.html" class="active">Home</a>
                     </li>
-                    <li style="z-index: 100;"><a href="#">Producties</a>
-                        <ul style="display: none; top: 0px; visibility: visible;">
+                    <!--Nog ^rpgrammeren dat menu zichtbaar wordt als je erover hovert
+                    on mouse enter ->class='selected' toevoegen, on mouse leave -> remove class selected
+                MENU op elke pagina zetten-->
+                                        <li style="z-index: 100;"><a href="#" class=" ">Producties</a>
+                        <ul onclick="show()" id="ondermenu" style="display: none; top: 0px; visibility: visible;">
                             <li>
                                 <a href="./Gravin.html">Gravin Maritza</a>
-                               <a href="./Galaconcert.html">GalaConcert 2023 - Jubileumeditie</a>
+                                <a href="./Galaconcert.html">GalaConcert 2023 - Jubileumeditie</a>
                             </li>
                         </ul>
                     </li>
-                    <li><a href="agenda.php">Agenda</a>
+                    <!-- <li><a href="agenda.php">Agenda</a>
+                    </li> -->
+                    <li><a href="./Overons.html">Over ons</a>
                     </li>
-                    <li><a href="overons.php">Over ons</a>
-                    </li>
-                    <li style="z-index: 99;"><a href="#" class="">Reacties</a>
+                    <!-- <li style="z-index: 99;"><a href="#" class="">Reacties</a>
                         <ul style="display: none; top: 0px; visibility: visible;">
                             <li><a href="reacties.php">Alle reacties</a></li>
                             <li><a href="reactietoevoegen.php">Reactie achterlaten</a></li>
                         </ul>
-                    </li>
-                    <li style="z-index: 98;"><a href="#">Galerij</a>
+                    </li> -->
+                    <!-- <li style="z-index: 98;"><a href="#">Galerij</a>
                         <ul style="display: none; top: 0px; visibility: visible;">
                             <li><a href="fotos.php">Foto's</a></li>
                             <li><a href="video.php">Video's</a></li>
                         </ul>
+                    </li> -->
+                    <li><a href="#">Tickets Heist/Berg</a>
                     </li>
-                    <li><a href="ticketsHeist.php">Tickets Heist/Berg</a>
-                    </li>
-                    <li><a href="nieuwsbrief.php">Nieuwsbrief</a>
+                    <!-- <li><a href="nieuwsbrief.php">Nieuwsbrief</a>
                     </li>
                     <li><a href="medewerkers.php">Medewerkers</a>
-                    </li>
-                    <li><a href="">Contact</a></li>
+                    </li> -->
+                    <li><a href="./Contact.html">Contact</a></li>
                 </ul>
             </div>
             <div class="sidebox">
                 <ul class="share">
 
-                    <li><a href="https://www.facebook.com/VMT.Belgie/"><img src="style/images/icon-facebook.png"
-                                alt=""></a></li>
+                    <li><a href="https://www.facebook.com/VMT.Belgie/"><img
+                                src="./images/facebook ronde achtergrond.png" width="50px" alt="logo facebook"></a></li>
                 </ul>
             </div>
             <div class="sidebox" style="color:#FFF;">
@@ -90,7 +94,8 @@
                         <li class="flex-active-slide"
                             style="width: 100%; float: left; margin-right: -100%; position: relative; display: list-item;">
                             <a href="productiedetail.php?CodeProductie=4"><img src="../Afbeeldingen/Slide/4.png"
-                                    alt=""></a></li>
+                                    alt=""></a>
+                        </li>
                         <li style="width: 100%; float: left; margin-right: -100%; position: relative; display: none;"
                             class=""><a href="productiedetail.php?CodeProductie=6"><img
                                     src="../Afbeeldingen/Slide/6.png" alt=""></a></li>
@@ -113,7 +118,7 @@
 
             <p>
             </p>
-            <h3><img src="../Afbeeldingen/Logo-rond.png" alt="" width="35" height="32">Bosmans slaapcomfort-center
+            <h3><img src="./images/sponsor Bosmans.png" alt="" width="35" height="32">Bosmans slaapcomfort-center
                 blijft gouden sponsor!</h3>
             <p></p>
             <p>Ondanks de moeilijke tijden die iedereen maar ook onze sponsors moeten ondergaan heeft Bosmans
@@ -127,7 +132,7 @@
             <p>&nbsp;</p>
             <p>
             </p>
-            <h3><img src="../Afbeeldingen/Logo-rond.png" alt="" width="35" height="32">50-jarig bestaan</h3>
+            <h3><img src="./images/gala jubileum.png" alt="" width="35" height="32">50-jarig bestaan</h3>
             <p></p>
             <p>In 2023 viert het Vlaams muziek Theater haar 50-jarig bestaan. Wij vieren dit met een speciale editie van
                 ons OperetteGala op 2 en 3 december 2023 in het Cultuurcentrum Zwaneberg te Heist-op-den-Berg. Wij
@@ -140,7 +145,7 @@
             <div class="clear"></div>
 
 
-            <div id="slider">
+            <!-- <div id="slider">
                 <div class="flexslider">
                     <ul class="slides">
 
@@ -151,7 +156,7 @@
                     </ul>
                 </div>
             </div>
-            <p>&nbsp;</p>
+            <p>&nbsp;</p> -->
             <div class="clear"></div>
 
             <h7>Onze producten&nbsp;</h7>
@@ -193,18 +198,19 @@
                         <li class="jcarousel-item jcarousel-item-horizontal jcarousel-item-1 jcarousel-item-1-horizontal"
                             jcarouselindex="1" style="float: left; list-style: none;"> <a
                                 href="https://www.slaapcomfort-center.be/"> <span class="overlay details"
-                                    style="border-radius: 3px;"></span><img src="../Afbeeldingen/Sponsors/3.png" alt=""
+                                    style="border-radius: 3px;"></span><img src="./images/sponsor Bosmans.png" alt=""
                                     style="border-radius: 3px;"></a></li>
                         <li class="jcarousel-item jcarousel-item-horizontal jcarousel-item-2 jcarousel-item-2-horizontal"
                             jcarouselindex="2" style="float: left; list-style: none;"> <a
                                 href="https://www.vlaanderen.be/"> <span class="overlay details"
-                                    style="border-radius: 3px;"></span><img src="../Afbeeldingen/Sponsors/4.png" alt=""
+                                    style="border-radius: 3px;"></span><img
+                                    src="./images/vlaanderen verbeelding werkt.png" alt=""
                                     style="border-radius: 3px;"></a></li>
                     </ul>
                 </div>
             </div>
             <p>&nbsp;</p>
-
+            <!-- 
             <div class="clear"></div>
             <h7>Laatste reacties van onze toeschouwers&nbsp;</h7>
             <ul class="testimonials">
@@ -237,7 +243,7 @@
                 </li>
 
             </ul>
-            <p><a href="reacties.php" class="button blue" style="border-radius: 3px;">Bekijk hier alle reacties</a></p>
+            <p><a href="reacties.php" class="button blue" style="border-radius: 3px;">Bekijk hier alle reacties</a></p> -->
 
             <div class="clear"></div>
             <h7>Donateurs&nbsp;</h7>
@@ -266,7 +272,7 @@
                 <li>€ 10,00 Van Den Acker Rita</li>
                 <li>€ 35,00 Anoniem</li>
             </ul>
-            <p></p>
+
 
             <div id="footer">
                 <div class="footer-box one-third">
@@ -312,22 +318,7 @@
 
             </div>
 
-            <h1 class="title">Vlaams Muziek Theater</h1>
-            <div class="line"></div>
 
-            <div class="intro">
-                <p>In 1973 werd in Heist-op-den-Berg een nieuw operettegezelschap opgericht met als doel elk jaar een
-                    operettevoorstelling op de planken te brengen. en dit intregraal in het Nederlands. De Heistse
-                    Operette Kring was geboren.<br>
-
-                    Ondertussen is dit gezelschap uitgegroeid tot het populairste operettegezelschap van de Benelux en
-                    trad op in België, Nederland en Frankrijk. Zij gaan nu verder onder de naam "Vlaams Muziek Theater",
-                    afgekort VMT.<br>
-
-                    Naast hun jaarlijkse operetteproducties richten zij ook heel wat concerten in. En hiervoor durft men
-                    beroep te doen op buitenlandse artiesten zoals Peter Minich, Karin Pagmar en de laatste jaren komen
-                    Jozsef Bozso en Trixi Teremi, regelmatig uit Hongarije overgevlogen!</p>
-            </div>
 
 
 
@@ -335,6 +326,8 @@
         </div>
 
     </div>
+    <script src="./script.js"></script>
+    <script src="./jquerycorner.js"></script>
 </body>
 
 </html>
