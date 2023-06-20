@@ -10,28 +10,31 @@
 
 <body>
     <div id="wrapper">
+      
         <div id="sidebar" style="height: 3471px;">
             <div id="logo"><a href="./index.html"><img src="./images/Logo-rondVMT.png" alt="" width="200"
                         height="188"></a>
             </div>
             <div id="menu" class="menu-v">
                 <ul>
-                    <li><a href="./index.html" class="active">Home</a>
+                    <li ><a class="nav-link" href="./index.html" >Home</a>
                     </li>
                     <!--Nog ^rpgrammeren dat menu zichtbaar wordt als je erover hovert
                     on mouse enter ->class='selected' toevoegen, on mouse leave -> remove class selected
                 MENU op elke pagina zetten-->
-                                        <li  id="ondermenu" style="z-index: 100;"><a href="#" class=" " onmouseenter={show()} onmouseleave={verberg()}>Producties</a>
-                        <ul  style="display: none; top: 0px; visibility: visible;">
-                            <li>
-                                <a href="./Gravin.html">Gravin Maritza</a>
-                                <a href="./Galaconcert.html">GalaConcert 2023 - Jubileumeditie</a>
+                                        <li   style="z-index: 100;">
+                                            <a class="nav-link" href="Producties.html" onmouseenter={show()} onmouseleave={verberg()}>
+                                                Producties</a>
+                        <ul id="ondermenu" style="display: none; top: -50px; visibility: visible;">
+                            <li onmouseenter={show()} onmouseleave={verberg()}>
+                                <a href="./Producties.html">GalaConcert 2023 - Jubileumeditie</a>
+                                <a href="./Producties.html">Gravin Maritza</a>
                             </li>
                         </ul>
                     </li>
                     <!-- <li><a href="agenda.php">Agenda</a>
                     </li> -->
-                    <li><a href="./Overons.html">Over ons</a>
+                    <li><a class="nav-link" href="./Overons.html">Over ons</a>
                     </li>
                     <!-- <li style="z-index: 99;"><a href="#" class="">Reacties</a>
                         <ul style="display: none; top: 0px; visibility: visible;">
@@ -45,13 +48,13 @@
                             <li><a href="video.php">Video's</a></li>
                         </ul>
                     </li> -->
-                    <li><a href="#">Tickets Heist o/d Berg</a>
+                    <li><a class="nav-link" href="https://www.zwaneberg.be/nl/praktisch/tickets" target="_blank">Tickets Heist o/d Berg</a>
                     </li>
                     <!-- <li><a href="nieuwsbrief.php">Nieuwsbrief</a>
                     </li>
                     <li><a href="medewerkers.php">Medewerkers</a>
                     </li> -->
-                    <li><a href="./Contact.html">Contact</a></li>
+                    <li ><a class="nav-link" href="./Contact.html">Contact</a></li>
                 </ul>
             </div>
             <div class="sidebox">
@@ -108,12 +111,12 @@
                     </ul>
                 </div>
             </div> -->
-            <p>&nbsp;</p>
-            <img src="./images/affiche auditie.jpg">
-            <p>&nbsp;</p>
+       
+            <img src="./images/affiche auditie.jpg" width="300px" style="margin: 0 auto;">
+      
             <div class="clear"></div>
-            <h7>Berichten&nbsp;</h7>
-            <p>&nbsp;</p>
+            <h7>Berichten</h7>
+       
             <h3><img src="./images/affiche auditie.jpg" alt="reclame auditie" width="35" height="32">Het Vlaams Muziek Theater is voor hun 
                 nieuwe productie “Gravin Maritza” op zoek naar nieuwe koorzangers voor het ensemble. 
                 De productie gaat in première eind januari 2024 en speelt tot begin mei in 
@@ -133,7 +136,7 @@
             <sup>bericht verschenen sinds 2022-10-08 14:01:42</sup>
             <p>&nbsp;</p>
             <hr>
-            <h3><img src="./images/gala jubileum.png" alt="" width="35" height="32">50-jarig bestaan</h3>
+            <h3><img src="./images/50met krans.jpg" alt="" width="35" height="32">50-jarig bestaan</h3>
             <p></p>
             <p>In 2023 viert het Vlaams muziek Theater haar 50-jarig bestaan. Wij vieren dit met een speciale editie van
                 ons OperetteGala op 2 en 3 december 2023 in het Cultuurcentrum Zwaneberg te Heist-op-den-Berg. Wij
@@ -160,26 +163,27 @@
             <p>&nbsp;</p> -->
             <div class="clear"></div>
 
-            <h7>Onze producten&nbsp;</h7>
+            <h7>Onze producten</h7>
+       
             <div class="clear"></div>
             <div class="one-half">
-                <h3><img src="../Afbeeldingen/Logo-rond.png" alt="" width="35" height="32">Operette</h3>
+                <h3><img src="./images//Logo-rondVMT.png" alt="" width="35" height="32">Operette</h3>
                 <p>Ieder seizoen programmeert het Vlaams Muziek Theater een operette die integraal in het Nederlands
                     wordt gebracht.<br>
                     Er wordt steeds veel aandacht besteed aan mooie kleding en decor.</p>
             </div>
             <div class="one-half last">
-                <h3><img src="../Afbeeldingen/Logo-rond.png" alt="" width="35" height="32">Concerten</h3>
+                <h3><img src="./images/Logo-rondVMT.png" alt="" width="35" height="32">Concerten</h3>
                 <p>Naast de operette zijn er verschillende concertreeksen die overal in Vlaanderen gebracht worden.</p>
             </div>
             <div class="clear"></div>
             <div class="one-half">
-                <h3><img src="../Afbeeldingen/Logo-rond.png" alt="" width="35" height="32">Ons orkest</h3>
+                <h3><img src="./images/Logo-rondVMT.png" alt="" width="35" height="32">Ons orkest</h3>
                 <p>Heeft u een evenement waar u een orkest nodig heeft? Contacteer dan het Orkest van het Vlaams Muziek
                     Theater.</p>
             </div>
             <div class="one-half last">
-                <h3><img src="../Afbeeldingen/Logo-rond.png" alt="" width="35" height="32">Speciale gelegenheden</h3>
+                <h3><img src="./images/Logo-rondVMT.png" alt="" width="35" height="32">Speciale gelegenheden</h3>
                 <p>Zijn er speciale gelegenheden die u muzikaal wenst op te luisteren dan bent u bij VMT aan het juiste
                     adres.</p>
             </div>
@@ -188,11 +192,12 @@
 
             <div class="clear"></div>
 
-            <h7>Deze producties komen tot stand met de medewerking van&nbsp;</h7>
+            <h7>Deze producties komen tot stand met de medewerking van</h7>
+            <p>&nbsp;</p>
             <div class="carousel jcarousel-container jcarousel-container-horizontal"
                 style="position: relative; display: block;">
-                <div id="carousel-scroll"><a href="#" id="prev" style="border-radius: 3px;"></a><a href="#" id="next"
-                        style="border-radius: 3px;"></a></div>
+                <!-- <div id="carousel-scroll"><a href="#" id="prev" style="border-radius: 3px;"></a><a href="#" id="next"
+                        style="border-radius: 3px;"></a></div> -->
                 <div class="jcarousel-clip jcarousel-clip-horizontal" style="overflow: hidden; position: relative;">
                     <ul class="jcarousel-list jcarousel-list-horizontal"
                         style="overflow: hidden; position: relative; top: 0px; left: 0px; margin: 0px; padding: 0px; width: 360px;">
@@ -280,15 +285,15 @@
                     <h7>Eerstvolgende producties&nbsp;</h7>
                     <ul class="popular-posts">
                         <li>
-                            <a href="productiedetail.php?CodeProductie="><img src="../Afbeeldingen/Slide/6.png" alt=""
-                                    style="opacity: 1; border-radius: 3px;"></a>GalaConcert 2023 - Jubileumeditie<br>
-                            <a href="detailagenda?CodeAgenda=27">CC Zwaneberg<br>
+                           <img src="./images/gala jubileum.png" alt=""
+                                    style="opacity: 1; border-radius: 3px;">GalaConcert 2023 - Jubileumeditie<br>
+                            <a href="https://www.zwaneberg.be/nl/praktisch/tickets" target="_blank">CC Zwaneberg<br>
                                 <span>2023-12-02 | 20:00</span></a>
                         </li>
                         <li>
-                            <a href="productiedetail.php?CodeProductie="><img src="../Afbeeldingen/Slide/6.png" alt=""
-                                    style="opacity: 1; border-radius: 3px;"></a>GalaConcert 2023 - Jubileumeditie<br>
-                            <a href="detailagenda?CodeAgenda=28">CC Zwaneberg<br>
+                           <img src="./images/gala jubileum.png" alt=""
+                                    style="opacity: 1; border-radius: 3px;">GalaConcert 2023 - Jubileumeditie<br>
+                            <a href="https://www.zwaneberg.be/nl/praktisch/tickets" target="_blank">CC Zwaneberg<br>
                                 <span>2023-12-03 | 15:00</span></a>
                         </li>
 
@@ -327,8 +332,8 @@
         </div>
 
     </div><script src="./index.js"></script>
-    <script src="./script.js"></script>
-    <script src="./jquerycorner.js"></script>
+    <!-- <script src="./script.js"></script>
+    <script src="./jquerycorner.js"></script> -->
 </body>
 
 </html>

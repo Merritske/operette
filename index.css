@@ -134,24 +134,24 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0 0 10px 0;
 }
 h1 {
-	font-size: 30px;
+	font-size: 40px;
 	line-height: 26px;
 }
 h2 {
-	font-size: 20px;
+	font-size: 30px;
 	line-height: 24px;
 }
 
 h3 {
-	font-size: 18px;
+	font-size: 20px;
 	line-height: 22px;
 }
 h4 {
-	font-size: 16px;
+	font-size: 18px;
 	line-height: 20px;
 }
 h5 {
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 20px;
 }
 h6 {
@@ -602,14 +602,14 @@ padding-bottom: 40px;
 
 .menu-v ul li ul{
 	position: absolute;
-	width: 150px; 
-	top: 0px;
+	width: 200px; 
+	top: -50px;
 	font-weight: normal;
 	visibility: hidden;
 	text-align: left;
 	padding-left: 30px;
 	padding-bottom: 0 !important;
-	margin-left: 200px;
+	margin-left: 160px;
 	background: #f2f2f2 ;
 	-webkit-box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 0.10);
 	-moz-box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 0.10);
@@ -633,6 +633,7 @@ padding-bottom: 40px;
 
 .menu-v ul li ul li a.active, .menu-v ul li ul li a.selected, .menu-v ul li ul li a:hover{
 	background: none;
+
 }
 
 
@@ -1418,16 +1419,20 @@ table {
 	width: 100%;
 	border-collapse: collapse;
 	margin-bottom: 20px;
-	color: #6e6e6e;
 	border-bottom:1px solid #dedede;
+	font-family: 'Amaranth', sans-serif;
+	color: #492a17;
+	font-weight: normal;
+	margin: 0 0 10px 0;
 }
 table td {
-	padding: 8px 10px;
+	padding: 18px 20px;
 	border-right:1px solid #dedede;
+	font-size: larger;
 }
-table td:hover {
+/* table td:hover {
 	background-color: #f2f2f2;
-}
+} */
 table th h4 {
 	margin:0;
 }
@@ -1498,4 +1503,12 @@ table .check-icon {
 table span.cross {
 	display: inline-block;
 	text-align: center;
+}
+#contact h4{
+	font-size: 35px;
+	padding: 15px;
+}
+#contact h5{
+	font-size: 30px;
+	padding: 10px 15px;
 }

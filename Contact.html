@@ -11,93 +11,82 @@
 </head>
 
 <body>
-  <!--Menu nog kopiëren van de index.html--> 
-   <div id="wrapper">
+  <!--Menu nog kopiëren van de index.html-->
+  <div id="wrapper">
     <div id="sidebar" style="height: 3471px;">
       <div id="logo"><a href="./index.html"><img src="./images/Logo-rondVMT.png" alt="" width="200" height="188"></a>
       </div>
       <div id="menu" class="menu-v">
-        <ul>
-          <li><a href="./index.html">Home</a>
+        <ul >
+          <li ><a class="nav-link" href="./index.html" >Home</a>
           </li>
-          <li style="z-index: 100;"><a href="#">Producties</a>
-            <ul style="display: none; top: 0px; visibility: visible;">
+          <!--Nog ^rpgrammeren dat menu zichtbaar wordt als je erover hovert
+              on mouse enter ->class='selected' toevoegen, on mouse leave -> remove class selected
+          MENU op elke pagina zetten-->
+          <li  style="z-index: 100;">
+            <a class="nav-link" href="./Producties.html"  onmouseenter={show()} onmouseleave={verberg()}>
+              Producties</a>
+            <ul id="ondermenu" style="display: none; top: 0px; visibility: visible;">
               <li>
-                <a href="./Gravin.html">Gravin Maritza</a>
-                <a href="./Galaconcert.html">GalaConcert 2023 - Jubileumeditie</a>
+                <a href="./Producties.html">GalaConcert 2023 - Jubileumeditie</a>
+                <a href="./Producties.html">Gravin Maritza</a>
               </li>
             </ul>
           </li>
-          <li><a href="agenda.php">Agenda</a>
+          <!-- <li><a href="agenda.php">Agenda</a>
+              </li> -->
+          <li ><a class="nav-link"  href="./Overons.html">Over ons</a>
           </li>
-          <li><a href="overons.php">Over ons</a>
+          <!-- <li style="z-index: 99;"><a href="#" class="">Reacties</a>
+                  <ul style="display: none; top: 0px; visibility: visible;">
+                      <li><a href="reacties.php">Alle reacties</a></li>
+                      <li><a href="reactietoevoegen.php">Reactie achterlaten</a></li>
+                  </ul>
+              </li> -->
+          <!-- <li style="z-index: 98;"><a href="#">Galerij</a>
+                  <ul style="display: none; top: 0px; visibility: visible;">
+                      <li><a href="fotos.php">Foto's</a></li>
+                      <li><a href="video.php">Video's</a></li>
+                  </ul>
+              </li> -->
+          <li ><a class="nav-link"  href="https://www.zwaneberg.be/nl/praktisch/tickets" target="_blank">Tickets Heist o/d Berg</a>
           </li>
-          <li style="z-index: 99;"><a href="#" class="">Reacties</a>
-            <ul style="display: none; top: 0px; visibility: visible;">
-              <li><a href="reacties.php">Alle reacties</a></li>
-              <li><a href="reactietoevoegen.php">Reactie achterlaten</a></li>
-            </ul>
-          </li>
-          <li style="z-index: 98;"><a href="#">Galerij</a>
-            <ul style="display: none; top: 0px; visibility: visible;">
-              <li><a href="fotos.php">Foto's</a></li>
-              <li><a href="video.php">Video's</a></li>
-            </ul>
-          </li>
-          <li><a href="ticketsHeist.php">Tickets Heist/Berg</a>
-          </li>
-          <li><a href="nieuwsbrief.php">Nieuwsbrief</a>
-          </li>
-          <li><a href="medewerkers.php">Medewerkers</a>
-          </li>
-          <li><a href="./Contact.html" class="active">Contact</a></li>
+          <!-- <li><a href="nieuwsbrief.php">Nieuwsbrief</a>
+              </li>
+              <li><a href="medewerkers.php">Medewerkers</a>
+              </li> -->
+          <li ><a class="nav-link"  href="./Contact.html">Contact</a></li>
         </ul>
       </div>
       <div class="sidebox">
         <ul class="share">
 
           <li><a href="https://www.facebook.com/VMT.Belgie/"><img src="./images/facebook ronde achtergrond.png"
-                alt="logo facebook" width="50px"></a></li>
+                width="50px" alt="logo facebook"></a></li>
         </ul>
-      </div>
-      <div class="sidebox" style="color:#FFF;">
-        <p style="margin-bottom:5px;">Copyright © VMT-2022</p>
-        <p>ontworpen door: <a href="https://www.slaets.be">VMT</a></p>
       </div>
     </div>
     <div id="content">
       <div>
         <h1 class="title">Contact</h1>
-<hr>
-
+        <hr>
         <h3 class="naam"> Vlaams Muziek Theater</h3>
         <br>
         <div id="contact">
-          <h5> V.M.T.</h5>
-
-
-          <h5>Hollestraat 70</h5>
-
-
-          <h5> 2220 Heist-op-den-Berg</h5>
-
-
-          <h5>
-
-            <a class="telefoonnummer" href="tel:+3215244214">015/244214</a> - <a class="telefoonnummer"
-              href="tel:+32475867382">0475/867382</a>
-          </h5>
-          <a class="mail" href="mailto:bert.slaets@telenet.be">bert.slaets@telenet.be</a>
+          <h4> V.M.T.</h4>
+          <h4>Hollestraat 70</h4>
+          <h4> 2220 Heist-op-den-Berg</h4>
+          
+          <h5><a class="telefoonnummer" href="tel:+3215244214">015/244214</a> - 
+            <a class="telefoonnummer"
+              href="tel:+32475867382">0475/867382</a></h5>  
+     
+        <br>
+        <h5> <a class="mail" href="mailto:bert.slaets@telenet.be">bert.slaets@telenet.be</a></h5>
           <br>
-          <a class="mail" href="mailto:info@vmt.be">info@vmt.be</a>
-
+         <h5><a class="mail" href="mailto:info@vmt.be">info@vmt.be</a></h5> 
         </div>
-
-
-
-
         <div id="footer">
-
           <div class="footer-box one-third last">
             <h7>Boekhoudkundige gegevens&nbsp;</h7>
             <p>
@@ -106,26 +95,13 @@
               <span class="lite1"> BTW:</span> BE.0470428224<br>
             </p>
           </div>
-
-
-
-
         </div>
-
-
-
-
-
       </div>
-
     </div>
-
-
-
-
-
-
   </div>
+  <script src="./index.js"></script>
+  <!-- <script src="./jquerycorner.js"></script>
+  <script src="./script.js"></script> -->
 </body>
 
 </html>
