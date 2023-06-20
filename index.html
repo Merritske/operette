@@ -21,8 +21,8 @@
                     <!--Nog ^rpgrammeren dat menu zichtbaar wordt als je erover hovert
                     on mouse enter ->class='selected' toevoegen, on mouse leave -> remove class selected
                 MENU op elke pagina zetten-->
-                                        <li style="z-index: 100;"><a href="#" class=" ">Producties</a>
-                        <ul onclick="show()" id="ondermenu" style="display: none; top: 0px; visibility: visible;">
+                                        <li  id="ondermenu" style="z-index: 100;"><a href="#" class=" " onmouseenter={show()} onmouseleave={verberg()}>Producties</a>
+                        <ul  style="display: none; top: 0px; visibility: visible;">
                             <li>
                                 <a href="./Gravin.html">Gravin Maritza</a>
                                 <a href="./Galaconcert.html">GalaConcert 2023 - Jubileumeditie</a>
@@ -45,7 +45,7 @@
                             <li><a href="video.php">Video's</a></li>
                         </ul>
                     </li> -->
-                    <li><a href="#">Tickets Heist/Berg</a>
+                    <li><a href="#">Tickets Heist o/d Berg</a>
                     </li>
                     <!-- <li><a href="nieuwsbrief.php">Nieuwsbrief</a>
                     </li>
@@ -61,10 +61,7 @@
                                 src="./images/facebook ronde achtergrond.png" width="50px" alt="logo facebook"></a></li>
                 </ul>
             </div>
-            <div class="sidebox" style="color:#FFF;">
-                <p style="margin-bottom:5px;">Copyright © VMT-2022</p>
-                <p>ontworpen door: <a href="https://www.slaets.be">VMT</a></p>
-            </div>
+           
         </div>
         <div id="content">
 
@@ -83,7 +80,7 @@
                     beroep te doen op buitenlandse artiesten zoals Peter Minich, Karin Pagmar en de laatste jaren komen
                     Jozsef Bozso en Trixi Teremi, regelmatig uit Hongarije overgevlogen!</p>
             </div>
-            <div id="slider">
+            <!-- <div id="slider">
                 <div class="flexslider">
                     <ul class="slides">
 
@@ -110,14 +107,19 @@
                         <li><a class="flex-next" href="#">Next</a></li>
                     </ul>
                 </div>
-            </div>
+            </div> -->
+            <p>&nbsp;</p>
+            <img src="./images/affiche auditie.jpg">
             <p>&nbsp;</p>
             <div class="clear"></div>
             <h7>Berichten&nbsp;</h7>
-
-
-            <p>
-            </p>
+            <p>&nbsp;</p>
+            <h3><img src="./images/affiche auditie.jpg" alt="reclame auditie" width="35" height="32">Het Vlaams Muziek Theater is voor hun 
+                nieuwe productie “Gravin Maritza” op zoek naar nieuwe koorzangers voor het ensemble. 
+                De productie gaat in première eind januari 2024 en speelt tot begin mei in 
+                verschillende theaters doorheen het land. </h3>
+            <p></p><hr>
+          
             <h3><img src="./images/sponsor Bosmans.png" alt="" width="35" height="32">Bosmans slaapcomfort-center
                 blijft gouden sponsor!</h3>
             <p></p>
@@ -130,8 +132,7 @@
                 style="border-radius: 3px;">Website Bosmans Slaapcomfort-center</a> <br>
             <sup>bericht verschenen sinds 2022-10-08 14:01:42</sup>
             <p>&nbsp;</p>
-            <p>
-            </p>
+            <hr>
             <h3><img src="./images/gala jubileum.png" alt="" width="35" height="32">50-jarig bestaan</h3>
             <p></p>
             <p>In 2023 viert het Vlaams muziek Theater haar 50-jarig bestaan. Wij vieren dit met een speciale editie van
@@ -325,7 +326,7 @@
 
         </div>
 
-    </div>
+    </div><script src="./index.js"></script>
     <script src="./script.js"></script>
     <script src="./jquerycorner.js"></script>
 </body>

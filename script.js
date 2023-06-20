@@ -192,9 +192,4 @@ $(document).ready(function(){
                     slideshowSpeed: 4000
                 });
     });
-    var ondermenu = document.getElementById("ondermenu")
-    function show(){
-        console.log(ondermenu)
-//ondermenu.style.display = 'block'
-console.log('klik')
-    }
+ 

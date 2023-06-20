@@ -583,12 +583,11 @@ pre {
 }
 
 .menu-v ul li a{
-	padding-bottom: 35px !important;
 	display: block;
 	color: rgb(60, 6, 6);
 	text-decoration: none;
-	padding: 12px 0 10px 20px;
-	padding-right: 17px;
+padding-bottom: 40px;
+	padding-right: 50px;
 	background: transparent; 
 	text-decoration: none;
 	border: none;
@@ -603,18 +602,20 @@ pre {
 
 .menu-v ul li ul{
 	position: absolute;
-	width: 130px; 
+	width: 150px; 
 	top: 0px;
 	font-weight: normal;
 	visibility: hidden;
 	text-align: left;
-	padding: 0 15px 0 15px;
-	margin-left: 0;
-	background: #A0A0A0 url(../images/noize.png) repeat top center;
+	padding-left: 30px;
+	padding-bottom: 0 !important;
+	margin-left: 200px;
+	background: #f2f2f2 ;
 	-webkit-box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 0.10);
 	-moz-box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 0.10);
 	box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 0.10);
-	border: 1px solid rgba(0, 0, 0, 0.30);
+	/* border: 1px solid rgba(0, 0, 0, 0.30); */
+	border-left: 2px solid rgb(60, 6, 6);
 	font-size: 14px;
 	line-height: 20px;
 }
@@ -625,12 +626,10 @@ pre {
 
 .menu-v ul li ul li:first-child {
 	background: none;
-	padding-bottom: 0;
+	padding-top: 20px;
 }
 
-.menu-v ul li ul li a{
-	padding: 12px 0;
-}
+
 
 .menu-v ul li ul li a.active, .menu-v ul li ul li a.selected, .menu-v ul li ul li a:hover{
 	background: none;

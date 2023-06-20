@@ -3,12 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <title>GalaConcert</title>
 </head>
 <body>
-    <div>
-        <h1>Operettegala</h1>
-        <img src="./images/gala jubileum.png" alt="gala-affiche">
+    <div id="wrapper">
+        <div id="sidebar" style="height: 3471px;">
+            <div id="logo"><a href="./index.html"><img src="./images/Logo-rondVMT.png" alt="" width="200"
+                        height="188"></a>
+            </div>
+            <div id="menu" class="menu-v">
+                <ul>
+                    <li><a href="./index.html" class="active">Home</a>
+                    </li>
+                    <!--Nog ^rpgrammeren dat menu zichtbaar wordt als je erover hovert
+                    on mouse enter ->class='selected' toevoegen, on mouse leave -> remove class selected
+                MENU op elke pagina zetten-->
+                                        <li style="z-index: 100;"><a href="#" class=" ">Producties</a>
+                        <ul onclick="show()" id="ondermenu" style="display: none; top: 0px; visibility: visible;">
+                            <li>
+                                <a href="./Gravin.html">Gravin Maritza</a>
+                                <a href="./Galaconcert.html">GalaConcert 2023 - Jubileumeditie</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- <li><a href="agenda.php">Agenda</a>
+                    </li> -->
+                    <li><a href="./Overons.html">Over ons</a>
+                    </li>
+                    <!-- <li style="z-index: 99;"><a href="#" class="">Reacties</a>
+                        <ul style="display: none; top: 0px; visibility: visible;">
+                            <li><a href="reacties.php">Alle reacties</a></li>
+                            <li><a href="reactietoevoegen.php">Reactie achterlaten</a></li>
+                        </ul>
+                    </li> -->
+                    <!-- <li style="z-index: 98;"><a href="#">Galerij</a>
+                        <ul style="display: none; top: 0px; visibility: visible;">
+                            <li><a href="fotos.php">Foto's</a></li>
+                            <li><a href="video.php">Video's</a></li>
+                        </ul>
+                    </li> -->
+                    <li><a href="#">Tickets Heist o/d Berg</a>
+                    </li>
+                    <!-- <li><a href="nieuwsbrief.php">Nieuwsbrief</a>
+                    </li>
+                    <li><a href="medewerkers.php">Medewerkers</a>
+                    </li> -->
+                    <li><a href="./Contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="sidebox">
+                <ul class="share">
+
+                    <li><a href="https://www.facebook.com/VMT.Belgie/"><img
+                                src="./images/facebook ronde achtergrond.png" width="50px" alt="logo facebook"></a></li>
+                </ul>
+            </div>
+           
+        </div>
+        <div id="content">
+    <div style="width: 990px; margin: 0 auto;">
+        <h1 class="title">Operettegala</h1>
+        <hr>
+        <img src="./images/gala jubileum.png" alt="gala-affiche" style="width: 550px;margin-top: 30px;">
+  <h3 style="margin-top: 25px;text-decoration: underline;">Cultureel Centrum Zwaneberg - Heist-op-den-Berg</h3>
+    
+        <div style="margin-left: 40px;">
+  <h3 style="margin-top: 25px;">Zaterdag 2 december 2023 - 20:00u</h3>
+    <h3 style="margin-top: 25px;">Zondag 3 december 2023 - 15:00u </h3>
+</div>
+<div>
+    <h4 style="margin-top: 25px; margin-left: 40px;">
+       <a href="https://www.zwaneberg.be/nl/praktisch/tickets">Kaarten bestellen</a> </h4>
+</div>
+    </div>
     </div>
 </body>
 </html>
