@@ -163,11 +163,12 @@ h7 {
 	font-family: 'Amaranth', sans-serif;
 	color: #FFFFFF;
 	font-weight: normal;
-	margin: 0 0 25px 0;
+	margin-bottom: 25px;
 	font-size: 20px;
-	line-height: 24px;	
+	line-height: 30px;	
 	background-color: #492A17;
-	
+	padding: 10px 10px 0 10px;
+	border-radius: 5px 5px 0 0;
 }
 
 h8 {
@@ -175,7 +176,10 @@ h8 {
 	line-height: 20px;
 	font-style: oblique;
 }
-
+p{
+	font-size: 20px;
+	line-height: 30px;
+}
 h1.title {
 	padding: 0;
 }
@@ -232,7 +236,7 @@ h3 img {
 }
 
 .line {
-	background: transparent url(../images/line.png) repeat-x;
+	background: transparent ;
 	height: 2px;
 	padding: 20px 0 0 0;
 	line-break: 0px;
@@ -243,8 +247,11 @@ h3 img {
 	font-style: italic;
 	font-size: 17px;
 	color: #585858;
-	line-height: 24px;
+	line-height: 25px;
 	margin-bottom: 20px;
+}
+.intro p{
+	font-size: 25px;
 }
 
 blockquote p {
@@ -255,7 +262,7 @@ blockquote p {
 	line-height: 24px;
 	margin-bottom: 20px;
 	padding-left: 30px;
-	background: transparent url(../images/quote.png) no-repeat left 7px;
+	background: transparent ;
 }
 
 ul {
@@ -263,7 +270,7 @@ ul {
 	margin-bottom: 20px;
 }
 ul li {
-	background: transparent url(../images/bullet.png) left 8px no-repeat;
+	background: transparent;
 	padding-left: 15px;
 }
 ol {
@@ -360,7 +367,6 @@ a.button.red:hover {
 	float:left;
 	font-size:45px;
 	padding:0;
-	margin: 0;
 	margin:10px 8px 3px 0;
 	font-family: 'Amaranth', sans-serif;
 }
@@ -426,6 +432,7 @@ pre {
 	width: 700px;
 	float: right;
 	padding: 40px 0 20px 0;
+	margin-right: 100px;
 }
 
 #sidebar {
@@ -492,7 +499,7 @@ pre {
 }
 
 #footer {
-	background: transparent url(../images/footer-line.png) repeat-x top center;
+	background: transparent repeat-x top center;
 	overflow: hidden;
 	padding: 20px 0 0 0;
 	margin-top: 40px;
@@ -513,7 +520,7 @@ pre {
 	background: none;
 	padding: 15px 0 0 0;
 	line-height: 17px;
-	background: transparent url(../images/line.png) repeat-x center top;
+	background: transparent ;
 }
 .footer-box ul.popular-posts li:first-child, .secondary .sidebox ul.popular-posts li:first-child {
 	margin: 0;
@@ -912,7 +919,7 @@ html[xmlns] .slides {
 	position: relative;
   	margin-bottom: 30px;
   	padding-bottom: 10px;
-  	background: transparent url(../images/line.png) repeat-x bottom;
+  	background: transparent ;
   	overflow: hidden;
 }
 
@@ -1507,8 +1514,71 @@ table span.cross {
 #contact h4{
 	font-size: 35px;
 	padding: 15px;
+	color: beige;
 }
 #contact h5{
 	font-size: 30px;
 	padding: 10px 15px;
+	color: beige;
 }
+#contact div{
+	  border: 3px whitesmoke solid;
+    padding: 25px;
+	width: 650px;
+	background-color: #4c2504;
+}
+#contact{
+  
+    font-size: 30px;
+    width: 600px;
+    background-color: #4c2504;
+    margin: 0 auto;
+    padding: 25px;
+    color: beige;
+}
+.title{
+    font-size: 55px;
+	margin-bottom: 30px;
+}
+.naam{
+    font-size: 45px;
+    color: #ffd700;
+	margin-bottom: 25px;
+}
+.telefoonnummer{
+    text-decoration: none;
+    color: beige;
+}
+.telefoonnummer:hover, .mail:hover{
+    color:blue ;
+}
+.mail{
+    color: beige;
+}
+#menu a.icon{
+	display: none;
+}
+/* @media screen and (max-width: 600px) {
+	#sidebar{
+		display: none;
+	}
+#menu a.icon {
+	  float: right;
+	  display: block;
+	}
+  }
+  
+  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) 
+  @media screen and (max-width: 600px) {
+	#sidebar.responsive {position: relative;}
+	#menu a.icon {
+	  position: absolute;
+	  right: 0;
+	  top: 0;
+	}
+	#sidebar.responsive a {
+	  float: none;
+	  display: block;
+	  text-align: left;
+	}
+  } */

@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="index.css">
-
+  <link rel="shortcut icon" href="./images/Logo-rondVMT.png" type="image/x-icon">
 
   <title>Contact</title>
 </head>
@@ -17,14 +17,14 @@
       <div id="logo"><a href="./index.html"><img src="./images/Logo-rondVMT.png" alt="" width="200" height="188"></a>
       </div>
       <div id="menu" class="menu-v">
-        <ul >
-          <li ><a class="nav-link" href="./index.html" >Home</a>
+        <ul>
+          <li><a class="nav-link" href="./index.html">Home</a>
           </li>
           <!--Nog ^rpgrammeren dat menu zichtbaar wordt als je erover hovert
               on mouse enter ->class='selected' toevoegen, on mouse leave -> remove class selected
           MENU op elke pagina zetten-->
-          <li  style="z-index: 100;">
-            <a class="nav-link" href="./Producties.html"  onmouseenter={show()} onmouseleave={verberg()}>
+          <li style="z-index: 100;">
+            <a class="nav-link" href="./Producties.html" onmouseenter={show()} onmouseleave={verberg()}>
               Producties</a>
             <ul id="ondermenu" style="display: none; top: 0px; visibility: visible;">
               <li>
@@ -35,7 +35,7 @@
           </li>
           <!-- <li><a href="agenda.php">Agenda</a>
               </li> -->
-          <li ><a class="nav-link"  href="./Overons.html">Over ons</a>
+          <li><a class="nav-link" href="./Overons.html">Over ons</a>
           </li>
           <!-- <li style="z-index: 99;"><a href="#" class="">Reacties</a>
                   <ul style="display: none; top: 0px; visibility: visible;">
@@ -49,13 +49,14 @@
                       <li><a href="video.php">Video's</a></li>
                   </ul>
               </li> -->
-          <li ><a class="nav-link"  href="https://www.zwaneberg.be/nl/praktisch/tickets" target="_blank">Tickets Heist o/d Berg</a>
+          <li><a class="nav-link" href="https://www.zwaneberg.be/nl/praktisch/tickets" target="_blank">Tickets Heist o/d
+              Berg</a>
           </li>
           <!-- <li><a href="nieuwsbrief.php">Nieuwsbrief</a>
               </li>
               <li><a href="medewerkers.php">Medewerkers</a>
               </li> -->
-          <li ><a class="nav-link"  href="./Contact.html">Contact</a></li>
+          <li><a class="nav-link" href="./Contact.html">Contact</a></li>
         </ul>
       </div>
       <div class="sidebox">
@@ -67,34 +68,75 @@
       </div>
     </div>
     <div id="content">
-      <div>
-        <h1 class="title">Contact</h1>
-        <hr>
+      <h1 class="title">Contact</h1>
+      <hr>
+       <br>
+      <div id="contact">
+        <div>
         <h3 class="naam"> Vlaams Muziek Theater</h3>
-        <br>
-        <div id="contact">
-          <h4> V.M.T.</h4>
-          <h4>Hollestraat 70</h4>
-          <h4> 2220 Heist-op-den-Berg</h4>
-          
-          <h5><a class="telefoonnummer" href="tel:+3215244214">015/244214</a> - 
-            <a class="telefoonnummer"
-              href="tel:+32475867382">0475/867382</a></h5>  
-     
-        <br>
+        <h4> V.M.T.</h4>
+        <h4>Hollestraat 70</h4>
+        <h4> 2220 Heist-op-den-Berg</h4>
+
+        <h5><a class="telefoonnummer" href="tel:+3215244214">015/244214</a> -
+          <a class="telefoonnummer" href="tel:+32475867382">0475/867382</a>
+        </h5>
+      
         <h5> <a class="mail" href="mailto:bert.slaets@telenet.be">bert.slaets@telenet.be</a></h5>
-          <br>
-         <h5><a class="mail" href="mailto:info@vmt.be">info@vmt.be</a></h5> 
+      
+        <h5><a class="mail" href="mailto:info@vmt.be">info@vmt.be</a></h5>
+      </div>
+      </div>
+      <div style="margin-top: 50px;">
+        <h7>Onze producten</h7>
+
+        <div class="clear"></div>
+        <div class="one-half">
+          <h3 style="margin-top: 15px;">
+            <a href="./Producties.html"><img src="./images//Logo-rondVMT.png" alt="" width="35" height="32"></a>Operette
+          </h3>
+          <p style="font-size: 20px; line-height: 30px;">Ieder seizoen programmeert het Vlaams Muziek Theater een
+            operette die integraal in het Nederlands
+            wordt gebracht.<br>
+            Er wordt steeds veel aandacht besteed aan mooie kleding en decor.</p>
         </div>
-        <div id="footer">
-          <div class="footer-box one-third last">
-            <h7>Boekhoudkundige gegevens&nbsp;</h7>
-            <p>
-              <span class="lite1"> Iban:</span> BE27.7512.0916.4473<br>
-              <span class="lite1"> Bic:</span> AXABBE22<br>
-              <span class="lite1"> BTW:</span> BE.0470428224<br>
-            </p>
-          </div>
+        <div class="one-half last">
+          <h3 style="margin-top: 15px;">
+            <a href="./Producties.html"><img src="./images/Logo-rondVMT.png" alt="" width="35" height="32"></a>
+            Concerten
+          </h3>
+          <p style="font-size: 20px; line-height: 30px;">Naast de operette zijn er verschillende concertreeksen die
+            overal in Vlaanderen gebracht worden.</p>
+        </div>
+        <div class="clear"></div>
+        <div class="one-half">
+          <h3 style="margin-top: 15px;">
+            <a href="./Contact.html"><img src="./images/Logo-rondVMT.png" alt="" width="35" height="32"></a> Ons
+            orkest
+          </h3>
+          <p style="font-size: 20px; line-height: 30px;">Heeft u een evenement waar u een orkest nodig heeft?
+            Contacteer dan het Orkest van het Vlaams Muziek
+            Theater.</p>
+        </div>
+        <div class="one-half last">
+          <h3 style="margin-top: 15px;">
+            <a href="./Contact.html"><img src="./images/Logo-rondVMT.png" alt="" width="35" height="32"></a> Speciale
+            gelegenheden
+          </h3>
+          <p style="font-size: 20px; line-height: 30px;">Zijn er speciale gelegenheden die u muzikaal wenst op te
+            luisteren dan bent u bij VMT aan het juiste
+            adres.</p>
+        </div>
+
+      </div>
+      <div id="footer">
+        <div class="footer-box one-third last">
+          <h7 style="font-size: smaller;">Boekhoudkundige gegevens</h7>
+          <p>
+            <span class="lite1"> Iban:</span> BE27.7512.0916.4473<br>
+            <span class="lite1"> Bic:</span> AXABBE22<br>
+            <span class="lite1"> BTW:</span> BE.0470428224<br>
+          </p>
         </div>
       </div>
     </div>

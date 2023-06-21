@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./index.css">
+    <link rel="shortcut icon" href="./images/Logo-rondVMT.png" type="image/x-icon">
     <title>Over ons</title>
 </head>
 
@@ -16,13 +17,13 @@
             </div>
             <div id="menu" class="menu-v">
                 <ul>
-                    <li ><a class="nav-link" href="./index.html" >Home</a>
+                    <li><a class="nav-link" href="./index.html">Home</a>
                     </li>
                     <!--Nog ^rpgrammeren dat menu zichtbaar wordt als je erover hovert
                 on mouse enter ->class='selected' toevoegen, on mouse leave -> remove class selected
             MENU op elke pagina zetten-->
-                    <li  style="z-index: 100;"><a href="./Producties.html" class="nav-link"  onmouseenter={show()}
-                            onmouseleave={verberg()} >Producties</a>
+                    <li style="z-index: 100;"><a href="./Producties.html" class="nav-link" onmouseenter={show()}
+                            onmouseleave={verberg()}>Producties</a>
                         <ul id="ondermenu" style="display: none; top: 0px; visibility: visible;">
                             <li>
                                 <a href="./Producties.html">GalaConcert 2023 - Jubileumeditie</a>
@@ -32,7 +33,7 @@
                     </li>
                     <!-- <li><a href="agenda.php">Agenda</a>
                 </li> -->
-                    <li  ><a class="nav-link" href="./Overons.html">Over ons</a>
+                    <li><a class="nav-link" href="./Overons.html">Over ons</a>
                     </li>
                     <!-- <li style="z-index: 99;"><a href="#" class="">Reacties</a>
                     <ul style="display: none; top: 0px; visibility: visible;">
@@ -46,13 +47,14 @@
                         <li><a href="video.php">Video's</a></li>
                     </ul>
                 </li> -->
-                    <li ><a class="nav-link" href="https://www.zwaneberg.be/nl/praktisch/tickets" target="_blank">Tickets Heist o/d Berg</a>
+                    <li><a class="nav-link" href="https://www.zwaneberg.be/nl/praktisch/tickets" target="_blank">Tickets
+                            Heist o/d Berg</a>
                     </li>
                     <!-- <li><a href="nieuwsbrief.php">Nieuwsbrief</a>
                 </li>
                 <li><a href="medewerkers.php">Medewerkers</a>
                 </li> -->
-                    <li ><a class="nav-link" href="./Contact.html">Contact</a></li>
+                    <li><a class="nav-link" href="./Contact.html">Contact</a></li>
                 </ul>
             </div>
             <div class="sidebox">
@@ -68,17 +70,85 @@
         <div id="content">
             <h1 class="title">Over ons</h1>
             <hr>
-            <h2>Geschiedenis</h2>
-            In 1973 begon, toen nog de Heistse Operettekring, aan een reeks operette's waarmee ze het hele land
-            aftoerden.
 
+            <!-- <h2 style="margin-top: 35px;">Geschiedenis</h2> -->
+            <div style="    display: flex;
+            flex-direction: row;
+            align-items: flex-start;">
+                <p style="font-size: 25px; line-height: 35px; margin-top: 35px;">
+                Het Vlaams Muziek Theater is 50 jaar geleden gestart onder de naam "Heistse Operette Kring".
+                <br>
+                Een groepje enthousiastelingen die in de kansen van een goede operette geloofden, zetten hun schouders
+                eronder en
+                50 jaar later is het "Vlaams Muziek Theater" of beter bekend als het V.M.T. een begrip in operetteminnend
+                Vlaanderen.
+                <br>
+            </p> 
+            <img src="./images/50met krans.jpg" alt="50jubileum" style="margin-top: 30px;margin-left: 30px;">
+                    
+            </div>
+       
+            <p style="font-size: 25px; line-height: 35px;">
+                Het V.M.T. staat voor volks operettegenot-met-klasse-en-met-stijl, dat met een gerust hart aangeboden
+                kan worden
+                aan het publiek van de grootste culturele centra en schouwburgen van Vlaanderen.
+            </p>
+            <p style="font-size: 25px; line-height: 35px;">
+                Naast zijn operettevoorstellingen organiseert het V.M.T. ook concerttournees van enkele solisten die met
+                begeleiding van een klein orkest, een selectie van hun mooiste melodieën in heel het land uitdragen.
+            </p>
+
+            <p style="font-size: 25px; line-height: 35px;">
+            Het succes van het V.M.T. is dankzij de enthousiaste inzet van de vele medewerkers, zowel achter de schermen als in de spotlight.
+            Decorbouwers, kledingverantwoordelijken, toneelmeesters, koorleden, dansers, professionele zangers, orkest...
+            <br>
+            Wil je ook graag deel uit maken van ons operette gezelschap? 
+            <br>
+            Stel je kandidaat door een mailtje te sturen naar: <a href="mailto:bert.slaets@telenet.be">bert.slaets@telenet.be</a>
+            </p>
+            <p style="font-size: 25px; line-height: 35px;">
+            Wil je ons gezelschap, operette of concert, uitnodigen in jouw cultureel centrum?
+            Neem contact op met <a href="mailto:bert.slaets@telenet.be">Bert Slaets</a>. 
+            </p>
+            <hr>
+            <div style="margin-top: 40px;">
+                <h7>Onze producten</h7>
+           
+            <div class="clear"></div>
+            <div class="one-half">
+                <h3 style="margin-top: 15px;">
+                    <a href="./Producties.html"><img src="./images//Logo-rondVMT.png" alt="" width="35" height="32"></a>Operette</h3>
+                <p style="font-size: 20px; line-height: 30px;">Ieder seizoen programmeert het Vlaams Muziek Theater een operette die integraal in het Nederlands
+                    wordt gebracht.<br>
+                    Er wordt steeds veel aandacht besteed aan mooie kleding en decor.</p>
+            </div>
+            <div class="one-half last">
+                <h3 style="margin-top: 15px;">
+                  <a href="./Producties.html"><img src="./images/Logo-rondVMT.png" alt="" width="35" height="32"></a>  Concerten</h3>
+                <p style="font-size: 20px; line-height: 30px;">Naast de operette zijn er verschillende concertreeksen die overal in Vlaanderen gebracht worden.</p>
+            </div>
+            <div class="clear"></div>
+            <div class="one-half">
+                <h3 style="margin-top: 15px;">
+                   <a href="./Contact.html"><img src="./images/Logo-rondVMT.png" alt="" width="35" height="32"></a> Ons orkest</h3>
+                <p style="font-size: 20px; line-height: 30px;">Heeft u een evenement waar u een orkest nodig heeft? Contacteer dan het Orkest van het Vlaams Muziek
+                    Theater.</p>
+            </div>
+            <div class="one-half last">
+                <h3 style="margin-top: 15px;">
+                   <a href="./Contact.html"><img src="./images/Logo-rondVMT.png" alt="" width="35" height="32"></a> Speciale gelegenheden</h3>
+                <p style="font-size: 20px; line-height: 30px;">Zijn er speciale gelegenheden die u muzikaal wenst op te luisteren dan bent u bij VMT aan het juiste
+                    adres.</p>
+            </div>
+          
+            </div>
         </div>
 
 
     </div>
-<script src="./index.js"></script>
-<script src="./jquerycorner.js"></script>
-<script src="./script.js"></script>
+    <script src="./index.js"></script>
+    <script src="./jquerycorner.js"></script>
+    <script src="./script.js"></script>
 
 </body>
 

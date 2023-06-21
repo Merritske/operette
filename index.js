@@ -25,3 +25,13 @@ document.querySelectorAll(".nav-link").forEach((link) => {
       console.log(link.href)
     }
 });
+// //responsive nav.
+// function myFunction() {
+//     var x = document.getElementById("sidebar");
+//     console.log(x.id)
+//     if (x.id === "sidebar") {
+//       x.id += " responsive";
+//     } else {
+//       x.id = "sidebar";
+//     }
+//   }
