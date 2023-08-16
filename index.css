@@ -1583,3 +1583,14 @@ table span.cross {
 	  text-align: left;
 	}
   } */
+  .fotogalerij{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+  }
+ .fotogalerij img{
+	margin: 10px 0;
+	height:auto;
+	overflow: hidden;
+  } 

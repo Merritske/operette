@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="./images/Logo-rondVMT.png" type="image/x-icon">
+   <!--Responsive nav-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+    <title>Fotogalerij</title>
+</head>
+<body>
+    <div id="wrapper">
+
+        <div id="sidebar" style="height: 3471px;">
+            <div id="logo"><a href="./index.html"><img src="./images/Logo-rondVMT.png" alt="" width="200"
+                        height="188"></a>
+            </div>
+            
+            <div id="menu" class="menu-v">
+                <!-- responsive nav
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                      </a> -->
+                <ul>  
+                    <li><a class="nav-link" href="./index.html">Home</a>
+                    </li>
+                    <!--Nog ^rpgrammeren dat menu zichtbaar wordt als je erover hovert
+                    on mouse enter ->class='selected' toevoegen, on mouse leave -> remove class selected
+                MENU op elke pagina zetten-->
+                    <li style="z-index: 100;">
+                        <a class="nav-link" href="Producties.html" onmouseenter={show()} onmouseleave={verberg()}>
+                            Producties</a>
+                        <ul id="ondermenu" style="display: none; top: -50px; visibility: visible;">
+                            <li onmouseenter={show()} onmouseleave={verberg()}>
+                                <a href="./Producties.html">GalaConcert 2023 - Jubileumeditie</a>
+                                <a href="./Producties.html">Gravin Maritza</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- <li><a href="agenda.php">Agenda</a>
+                    </li> -->
+                    <li><a class="nav-link" href="./Overons.html">Over ons</a>
+                    </li>
+                    <!-- <li style="z-index: 99;"><a href="#" class="">Reacties</a>
+                        <ul style="display: none; top: 0px; visibility: visible;">
+                            <li><a href="reacties.php">Alle reacties</a></li>
+                            <li><a href="reactietoevoegen.php">Reactie achterlaten</a></li>
+                        </ul>
+                    </li> -->
+                    <li style="z-index: 98;"><a href="./fotogalerij.html">Fotogalerij</a>
+                     <!--    <ul style="display: none; top: 0px; visibility: visible;">
+                            <li><a href="fotos.php">Foto's</a></li>
+                            <li><a href="video.php">Video's</a></li>
+                        </ul>-->
+                    </li> 
+                    <li><a class="nav-link" href="https://www.zwaneberg.be/nl/praktisch/tickets" target="_blank">Tickets
+                            Heist o/d Berg</a>
+                    </li>
+                    <!-- <li><a href="nieuwsbrief.php">Nieuwsbrief</a>
+                    </li>
+                    <li><a href="medewerkers.php">Medewerkers</a>
+                    </li> -->
+                    <li><a class="nav-link" href="./Contact.html">Contact</a></li>
+                    
+                </ul>
+            </div>
+            <div class="sidebox">
+                <ul class="share">
+
+                    <li><a href="https://www.facebook.com/VMT.Belgie/"><img
+                                src="./images/facebook ronde achtergrond.png" width="50px" alt="logo facebook"></a></li>
+                </ul>
+            </div>
+
+        </div>
+        <div id="content">
+<h2>Enkele sfeerbeelden van de voorbije producties.</h2>
+  
+<div class="fotogalerij">
+ <img src="./images/Ivan.jpg" alt="Ivan">
+ <img src="./images/in bed.jpg" alt="Ivan in bed">
+ <img src="./images/ivan2.jpg" alt="">
+ <img src="./images/Koen.jpg" alt="">
+ <img src="./images/Koen2.jpg" alt="">
+ <img src="./images/land1.jpg" alt="">
+ <img src="./images/land2.jpg" alt="">
+ <img src="./images/land3.jpg" alt="">
+ <img src="./images/affiche land vande glimlach.jpg" alt="">
+ <img src="./images/venetie1.jpg" alt="">
+ <img src="./images/venetie2.jpg" alt="">
+ <img src="./images/venetie3.jpg" alt="">
+ <img src="./images/nacht in Venetie.jpg" alt="">
+ <img src="./images/gala.jpg" alt="">
+ <img src="./images/gala2.jpg" alt="">
+ <img src="./images/graaf Luxemburg.jpg" alt="">
+ <img src="./images/graaf Luxemburg2.jpg" alt="">
+ <img src="./images/graaf Luxemburg3.jpg" alt="">
+ <img src="./images/lustige weduwe.jpg" alt="">
+</div>
+
+
+
+
+
+        </div>
+
+    </div>
+    <script src="./index.js"></script>
+    <!-- <script src="./script.js"></script>
+    <script src="./jquerycorner.js"></script> -->
+
+</body>
+</html>
