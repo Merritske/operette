@@ -1424,18 +1424,18 @@ ul.tabs li a {
 
 table {
 	width: 100%;
-	border-collapse: collapse;
 	margin-bottom: 20px;
 	border-bottom:1px solid #dedede;
 	font-family: 'Amaranth', sans-serif;
 	color: #492a17;
 	font-weight: normal;
 	margin: 0 0 10px 0;
+	border-left: none;
 }
 table td {
-	padding: 18px 20px;
-	border-right:1px solid #dedede;
-	font-size: larger;
+	padding: 18px 10px;
+font-size: larger;
+	border: none;
 }
 /* table td:hover {
 	background-color: #f2f2f2;
@@ -1444,11 +1444,12 @@ table th h4 {
 	margin:0;
 }
 table th {
-	padding: 10px;
+	padding: 10px 0;
 	text-align: left;
 	border-right:1px solid #dedede;
 	font-size: 16px;
 	font-weight: bold;
+	border-left: none;
 }
 table td.center {
 	text-align: center;
@@ -1463,7 +1464,7 @@ table th.last {
 	background: none;
 }
 table tr {
-	border-left:1px solid #dedede;
+
 	border-top:1px solid #dedede;
 }
 table tr.caption {
