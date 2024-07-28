@@ -24,6 +24,16 @@
             <div id="logo"><a href="./index.html"><img src="./images/Logo-rondVMT.png" alt="" width="200"
                         height="188"></a>
             </div>
+            <div style="background-color: beige; width: 300px; border: 3px red solid; border-radius: 20px; z-index: 5;padding: 25px;margin: 0 auto;">
+                <h3> Binnenkort uitverkoop van ons magazijn, zowel alles van het decor als de kledij wordt verkocht. <br>
+                 Wil je op de hoogte gebracht worden wanneer dit plaatsvindt? 
+              Neem contact op met <a href="mailto:benny.laurens10@gmail.com">Benny</a> </h3>
+               <br>   <h4>
+                        Alle info in verband met decorstukken <a href="mailto:benny.laurens10@gmail.com">mail naar Benny.</a> 
+             <br>
+                      Alle info in verband met kledij, kostuums en accessoires <a href="mailto:miageerts@skynet.be">mail naar Mia.</a> 
+                </h4>
+             </div>
             <div id="menu" class="menu-v">
                 <ul>
                     <li><a class="nav-link" href="./index.html">Home</a>
@@ -31,11 +41,12 @@
                     <!--Nog ^rpgrammeren dat menu zichtbaar wordt als je erover hovert
                     on mouse enter ->class='selected' toevoegen, on mouse leave -> remove class selected
                 MENU op elke pagina zetten-->
-                    <li style="z-index: 100;"><a href="./Producties.html" class="nav-link">Producties</a>
-                        <ul onclick="show()" id="ondermenu" style="display: none; top: 0px; visibility: visible;">
-                            <li>
-                                <a href="./Producties.html">GalaConcert 2023 - Jubileumeditie</a>
-                                <a href="./Producties.html">Gravin Maritza</a>
+                    <li style="z-index: 100;"><a href="./Producties.html" class="nav-link"
+                        >Producties</a>
+                        <ul id="ondermenu" style="display: none; top: -50px; visibility: visible;">
+                            <li onmouseenter={show()} onmouseleave={verberg()}>
+                                <a href="./Producties.html">GalaConcert 2024</a>
+                           
                             </li>
                         </ul>
                     </li>
@@ -79,39 +90,31 @@
                 <h1 class="title">Producties</h1>
                 <hr>
 
-                <h2 style="margin-top: 35px;">Nieuwjaarsconcert 'Operetteparels' in Sint-Agatha-Berchem.</h2>
+                <h2 style="margin-top: 35px;">Operettegala 2024.</h2>
                 <hr>
-                <p style="width: 80%;">Nieuwjaarsconcert? Het lag in de bedoeling om op zondag 7 januari 2024,
-
-                    met 62 personen deel te nemen aan het concert in het Casino van Knokke-Heist.
-                    
-                    Door het feit dat de autocar niet opdaagde viel onze uitstap letterlijk in het water.
-                    
-                    Geen nood … wij brengen het programma integraal naar Sint-Agatha-Berchem.        </p>
-                <img src="./images/gala jubileum.png" alt="gala-affiche" style="width: 550px;margin-top: 30px;">
-                <h3 style="margin-top: 25px;text-decoration: underline;">Gemeentelijke feestzaal van Sint-Agatha-Berchem,
-
-                    Koning Albertlaan 33, 1082 Brussel.
+                <p style="width: 80%;">
+                    Zoals elk jaar sluiten we het jaar af met een fantastisch concert waar bekende operettemelodieën
+                op het programma staan. Geniet mee van deze wonderlijke reis doorheen het gouden en zilveren tijdperk van de operette.
+            Het wordt een show om nooit te vergeten!    </p>
+                <img src="./images/operettegala2023-3.jpg" alt="operettegala2023-3" style="width: 550px;margin-top: 30px;">
+                <h3 style="margin-top: 25px;text-decoration: underline;">Cultureel Centrum Zwaneberg,
+                    Heist-op-den-Berg
                 </h3>
 <div style="margin-left: 40px;">
-                    <h3 style="margin-top: 25px;">Zondag 18 februari 2024 - 14:30u </h3>
-                    
+                    <h3 style="margin-top: 25px;">Zaterdag 7 december 2024 - 20u </h3>
+                    <h3 style="margin-top: 25px;">Zondag 8 december 2024 - 15u </h3>
                 </div>
                
                 <div>
 
-                      <h3>Tickets aan de kassa € 25,00
-
-                        Tickets in voorverkoop: € 20,00  / Zomaarabonnees: € 15,00.
-</h3>
-              <h3>Indien gewenst kunt u voorafgaand aansluiten voor het 'Wereld walking dinner'</h3>  
-           <h3><a href="https://www.info-zomaar.com/">Meer info</a> </h3>    
-            </div>
+                      <h3><a href="https://www.zwaneberg.be/nl/event/galaconcert" target="_blank">Tickets bestellen via CC Zwaneberg
+</a> </h3>
+         </div>
                 
             </div>
             <hr>
             <div style="height: 30px;"></div>
-            <div>
+            <!-- <div>
                 <h2 style="margin-top: 35px;">Gravin Maritza</h2>
                 <br>
                 <h5>Operette van E.Kalman</h5>
@@ -153,20 +156,13 @@
                     </p>
                 </div>
                 <div>
-                    <!-- <h6>(Datums onder voorbehoud)</h6> -->
+                <h6>(Datums onder voorbehoud)</h6>
                     <table>
-                         <!-- <tr>
-                            <th>Heist-op-den-Berg</th>
-                            <td>Vrijdag 26 januari 2024
-                                <span style="font-size: smaller;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(generale)</span>
-                            </td>
-                            <td>20:00u</td>
-                        </tr>  -->
+                      
                         <tr>
                             <th>Heist-op-den-Berg</th>
                             <td>Zaterdag 27 januari 2024
-                                <!-- <span style="font-size: smaller; color:gold">&nbsp;&nbsp;&nbsp;(première)</span> -->
-                            </td>
+                          </td>
                             <td>20:00u</td>
                         </tr>
                         <tr>
@@ -184,11 +180,7 @@
                             <td>Zaterdag 3 februari 2024</td>
                             <td>20:00u</td>
                         </tr>
-                        <!-- <tr>
-                            <th></th>
-                            <td>Zaterdag 10 februari 2024</td>
-                            <td>15:00u</td>
-                        </tr>  -->
+                 
                         <tr>
                             <th></th>
                             <td>Zaterdag 10 februari 2024</td>
@@ -217,11 +209,7 @@
                         </div>
                         <h4 style="color: grey;font-weight: 800;">Reisvoorstellingen:</h4>
                         <table>
-  <!-- <tr style="border-top: 2px solid grey;">
-                            <th>Cultureel Centrum - Woluwe </th>
-                            <td>Zaterdag 2 maart 2024</td>
-                            <td>14:30u</td>
-                        </tr> -->
+  
                           <tr style="border-top: 2px solid grey;">
                             <th>Stadsschouwburg - Leuven</th>
                             <td>Zaterdag 9 maart 2024</td>
@@ -264,14 +252,14 @@
                             <td><a href="https://www.terdilft.be/activiteitendetail/9925/gravin-maritza" target="_blank">Tickets</a> tel: 03 890 69 30</td>
                      
                         </tr>
-                        <!-- <tr style="border-top: 2px solid grey;">
+                    <tr style="border-top: 2px solid grey;">
                             <th>Cultureel Centrum - Turnhout</th>
                             <td>Donderdag 18 april 2024</td>
                             <td>14:00u</td>
-                        </tr> -->
+                        </tr> 
                     </table>
                   
-                </div>
+                </div> -->
 
 
 
