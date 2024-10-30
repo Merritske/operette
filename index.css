@@ -476,6 +476,11 @@ pre {
 	display: inline-block;
 	padding-right: 3px;
 }
+.naastElkaar{
+	display: flex;
+	flex-wrap: nowrap;
+	width: 800px;
+}
 
 .sidebox {
 	width: 200px;
