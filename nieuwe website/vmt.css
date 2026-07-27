@@ -36,8 +36,14 @@ margin-bottom: 15px;
 }
 .blad{
 width:80%;
-margin:auto;
+margin:auto;}
+#affiche{
 border-bottom: 3px solid gold;
+display: flex;
+justify-content: space-around;
+align-items: center;
+border-bottom: 2px solid gold;
+margin-bottom: 15px;
 }
 h1{
 font: 40px Brush Script MT;
