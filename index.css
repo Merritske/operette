@@ -1509,6 +1509,24 @@ table.price td h4 sup {
 	width: 10px;
 	height: 10px;
 }
+table, td{
+	font-weight: 900;
+border: 2px solid rgb(28, 49, 239);
+border-collapse: collapse;
+}
+table{
+width:100%;
+margin:10px;
+}
+td>a{
+width:100%;
+height:100%;
+display:block;
+padding:15px;
+}
+tr:hover{
+background-color:gold;
+}
 table .check-icon {
 	display: inline-block;
 	text-align: center;
