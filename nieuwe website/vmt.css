@@ -131,3 +131,15 @@ bottom:-50px;
 bottom:-15px !important;
 
 }
+@media screen and (max-width:1040px) {
+    html{
+background-color:white;
+    }
+    body{
+width:100%;
+margin: auto;
+}
+ .weg{
+    display: none;
+ }   
+}
