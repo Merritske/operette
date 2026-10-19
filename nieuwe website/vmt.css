@@ -26,6 +26,7 @@ body {
 
 img {
     margin: 10px;
+    width: 100%;
 }
 
 .inspringen {
@@ -173,4 +174,21 @@ tr:hover {
     .weg {
         display: none;
     }
+}
+@media screen and (max-width: 600px){
+html, body{
+    width: 100%;
+}
+main{
+    margin: 5px;
+
+}
+.blad{
+    width: 100%;
+    margin: 5px;
+}
+section{
+    margin: 0 auto;
+}
+
 }
